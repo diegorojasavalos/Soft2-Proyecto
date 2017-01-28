@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/01/2017, 10:38:21 AM
+    Author     : mbernedo
+*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.letra{
+    color: white;
+}
+
+.ancho{
+    width: 130px;
+    height: 130px;
+}
+
+.espacio{
+    margin-top: 40px;
+}
+
+span.badge.new::before{
+    background-color: #FF6F00 !important;
+}
+
+span.badge.new:after {
+    content: " nuevo";
+}
+
+.centroVert{
+    top: 30%;
+}
+
+.borde{
+    border-radius: 10px;
+    padding: 0px !important;
+}
+
+.secondary-content {
+    color: #FF6F00 !important;
+}
